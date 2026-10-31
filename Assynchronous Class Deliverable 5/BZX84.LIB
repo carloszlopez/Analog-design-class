@@ -1,0 +1,1566 @@
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C2V4LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C2V4LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.0e+4
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.80e+2
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C2V4LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C2V7LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C2V7LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 5.00E+04
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 5.40E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C2V7LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C3V0LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C3V0LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.00E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 6.00E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C3V0LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C3V3LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C3V3LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 6.60E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C3V3LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C3V6LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C3V6LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 7.20E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C3V6LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C3V9LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C3V9LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.33E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 7.80E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C3V9LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C4V3LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C4V3LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.33E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 8.60E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C4V3LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C4V7LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C4V7LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.60e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 6.67E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 9.40E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C4V7LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C5V1LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C5V1LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.25e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.02E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C5V1LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C5V6LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C5V6LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.00e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.12E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C5V6LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C6V2LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C6V2LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.85e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.33E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.24E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C6V2LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C6V8LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C6V8LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.55e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.36E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C6V8LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C7V5LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C7V5LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.40e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 5.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.50E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C7V5LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C8V2LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C8V2LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.35e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 7.14E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.64E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C8V2LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C9V1LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C9V1LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.20E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.82E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C9V1LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C10LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C10LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.50E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.00E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C10LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C11LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C11LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 8.00E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.20E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C11LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C12LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C12LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 8.00E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.40E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C12LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C13LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C13LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.20e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 8.00E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.60E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C13LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C15LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C15LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.10e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.10E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.00E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C15LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C16LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C16LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.05e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.24E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.20E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C16LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C18LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C18LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.00e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.52E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.60E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C18LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C20LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C20LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=8.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.80E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.00E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C20LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C22LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C22LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=8.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.08E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.40E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C22LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C24LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C24LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=8.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.36E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.80E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C24LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C27LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C27LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=7.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.78E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.35E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C27LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C30LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C30LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=7.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 4.20E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.50E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C30LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C33LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C33LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=7.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 4.62E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.65E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C33LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C36LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C36LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=7.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 5.04E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.80E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C36LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C39LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C39LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 5.46E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.95E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C39LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C43LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C43LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 6.02E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 2.15E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C43LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C47LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C47LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 6.58E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 2.35E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C47LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C51LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C51LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 7.14E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 2.55E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C51LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C56LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C56LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 7.84E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 2.80E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C56LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C62LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C62LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=3.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 8.68E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 3.10E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C62LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C68LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C68LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=3.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 9.52E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 3.40E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C68LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84C75LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84C75LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=3.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.045E+09
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 3.75E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84C75LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B3V3LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B3V3LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=4.50e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 6.60E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B3V3LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B4V7LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B4V7LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.60e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 6.67E+05
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 9.40E+02
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B4V7LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B5V1LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B5V1LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.25e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.02E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B5V1LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B5V6LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B5V6LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=2.00e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.12E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B5V6LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B6V2LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B6V2LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.85e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.33E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.24E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B6V2LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B6V8LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B6V8LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.55e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.36E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B6V8LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B7V5LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B7V5LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.40e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 5.00E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.50E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B7V5LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B8V2LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B8V2LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.35e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 7.14E+06
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.64E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B8V2LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B9V1LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B9V1LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 1.20E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 1.82E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B9V1LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B10LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B10LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.50E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.00E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B10LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B12LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B12LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.30e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 8.00E+07
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 2.40E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B12LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B15LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B15LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.10e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.10E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.00E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B15LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B16LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B16LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.05e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.24E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.20E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B16LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B18LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B18LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=1.00e-10   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 2.52E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 3.60E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B18LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B22LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B22LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=8.50e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.08E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.40E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B22LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B24LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B24LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=8.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.36E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 29.75
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=1.05e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=1.05e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.005
+RBV 6 0 MDRBV 4.80E+03
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B24LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*
+*$
+*************** Discrete Zener Diode Electrical Models **************
+** Zener Voltage Regulators
+** Product:BZX84B27LT1G
+** Package: SOT-23
+**-------------------------------------------------------------------
+.SUBCKT BZX84B27LT1G 2 1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5     XTI=1     RS=13.0546
++ CJO=7.00e-11   VJ=0.45   M=0.56    EG=1.16
+R 1 2 MDR 3.78E+08
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 110
+IZG 4 3 0.1
+R4 4 3 7
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-11 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-11 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 0.002
+RBV 6 0 MDRBV 1.35E+04
+.MODEL MDRBV RES TC1=1.0e-7
+.ENDS BZX84B27LT1G
+**-------------------------------------------------------------------
+** Creation: Jul.-25-2025   Rev: 1.0
+** onsemi
+*

@@ -1,0 +1,19 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\A5 Assynchronous Assignment 5 Electrical Protection.net
+Start Time: Thu Oct 22 19:50:05 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.048 seconds.
+
+Files loaded:
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\A5 Assynchronous Assignment 5 Electrical Protection.net
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\rsm002p03.lib
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\BZX84.lib
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\KSA992.lib
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog\A5\KSC1845.lib
+
