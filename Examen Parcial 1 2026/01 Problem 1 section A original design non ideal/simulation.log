@@ -1,0 +1,34 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\01 original design\simulation.net
+Start Time: Tue Nov  3 23:50:51 2026
+Z:\Examen Parcial 1 2026\01 original design\Coilcraft\CoilcraftTemplates.lib(123): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+G_Rvar1 N001 N003 LAPLACE { V(N001, N003) } {1/K1/(-S*S/4/PI^2)^0.25}
+                                                            ^
+Z:\Examen Parcial 1 2026\01 original design\Coilcraft\CoilcraftTemplates.lib(123): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+G_Rvar1 N001 N003 LAPLACE { V(N001, N003) } {1/K1/(-S*S/4/PI^2)^0.25}
+                                                               ^
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Z:\Examen Parcial 1 2026\01 original design\Coilcraft\CoilcraftTemplates.lib(123): Trouble evaluating Laplacian at DC.
+
+G_Rvar1 N001 N003 LAPLACE { V(N001, N003) } {1/K1/(-S*S/4/PI^2)^0.25}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 0.031 seconds.
+
+Files loaded:
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\01 original design\simulation.net
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\01 original design\GJM1555C1HR30WB01_DC0V_25degC.mod
+Z:\Examen Parcial 1 2026\01 original design\Coilcraft\0402DC.lib
+Z:\Examen Parcial 1 2026\01 original design\Coilcraft\CoilcraftTemplates.lib
+
+zpeak: MAX(mag(V(out)/I(I1)))=(53.3808567714dB,0°) FROM 1000000000 TO 10000000000
+fpeak: mag(V(out)/I(I1))=Zpeak AT 5571857489.32
+fl: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 5245291667.14
+fh: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 5900218137.42
+bw: fH-fL=(176.323850875dB,0°)
+qloaded: fpeak/BW=(18.5961491252dB,0°)
