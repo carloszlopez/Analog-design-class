@@ -1,0 +1,32 @@
+*Dec 10, 2012
+*ECN S12-2958, Rev. C
+*File Name: Si7465DP_PS.txt, Si7465DP_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT Si7465DP 4 1 2
+M1  3 1 2 2 PMOS W=2036637u L=0.25u           
+M2  2 1 2 4 NMOS W=2036637u L=0.45u 
+R1  4 3     RTEMP 39E-3
+CGS 1 2     1000E-12
+DBD 4 2     DBD
+***************************************************************  
+.MODEL  PMOS       PMOS  ( LEVEL  = 3          TOX    = 5E-8
++ RS     = 6E-3            RD     = 0          NSUB   = 1.2E17
++ KP     = 3.5E-6          UO     = 400             
++ VMAX   = 0               XJ     = 5E-7       KAPPA  = 7E-2
++ ETA    = 1E-4            TPG    = -1  
++ IS     = 0               LD     = 0                        
++ CGSO   = 0               CGDO   = 0          CGBO   = 0 
++ NFS    = 0.8E12          DELTA  = 0.1)
+*************************************************************** 
+.MODEL  NMOS       NMOS  ( LEVEL  = 3          TOX    = 5E-8
++NSUB    = 2E16            TPG    = -1)   
+*************************************************************** 
+.MODEL DBD D (CJO=200E-12 VJ=0.38 M=0.27
++RS=0.1 FC=0.5 IS=1E-12 TT=6E-8 N=1 BV=60.5)
+*************************************************************** 
+.MODEL RTEMP RES (TC1=7E-3 TC2=5.5E-6)
+*************************************************************** 
+.ENDS     

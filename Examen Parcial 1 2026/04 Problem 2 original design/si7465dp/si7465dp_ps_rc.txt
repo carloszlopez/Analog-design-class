@@ -1,0 +1,133 @@
+*Dec 10, 2012
+*ECN S12-2958, Rev. C
+*File Name: Si7465DP_PS_RC.txt, and Si7465DP_PS_RC.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+* source GENERARTE-COMP PCH
+.SUBCKT Si7465DP_PS_RC D G S PARAMS: C2=1000 R1=1M C3=1000 R2=1M C4=1000 R3=1M
++  C5=1000 R4=1M R5=1M C1=1000
+C_CT6         N11708 N11712  806.2950u  TC=0,0 
+C_CF2         0 N16364  18.8716m  TC=0,0 
+R_RT1         J-A-TEMP-TANK N11404  3.7208 TC=0,0 
+C_CF7         0 N18737  27.7537m  TC=0,0 
+R_RT7         N11712 N11716  446m TC=0,0 
+C_CF4         0 N16388  925.6034m  TC=0,0 
+G_G7         0 JUNCTION-TEMPERATURE-1RC VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+C_C10         N94536 N94151  {C4}  TC=0,0 
+C_C12         N95722 N95798  {C2}  TC=0,0 
+C_C5         N92368 N92773  {C2}  TC=0,0 
+V_V_Gate         G GATE 0VDC
+R_RT3         N11408 N11412  9.3366 TC=0,0 
+C_C8         N94061 N94123  {C2}  TC=0,0 
+R_RF3         N16384 N16388  13.4578 TC=0,0 
+V_V4         N11732 0 {TEMP}
+R_R10         N94536 N94151  {R4} TC=0,0 
+R_R5         N92368 N92773  {R2} TC=0,0 
+C_C3         N91434 N91125  {C2}  TC=0,0 
+R_R12         N95722 N95798  {R2} TC=0,0 
+R_R8         N94061 N94123  {R2} TC=0,0 
+R_RT8         N11716 N11732  1.3995 TC=0,0 
+X_U1         DRAIN GATE SOURCE Si7465DP 
+R_RT6         N11708 N11712  1.3421 TC=0,0 
+R_R3         N91434 N91125  {R2} TC=0,0 
+G_DissipationPower         0 J-A-TEMP-FILTER VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+C_CT2         N11404 N11408  167.8336m  TC=0,0 
+R_RT5         J-C-TEMP-TANK N11708  1.1124 TC=0,0 
+C_C1         JUNCTION-TEMPERATURE-1RC N89014  {C1}  TC=0,0 
+C_C13         N95798 N95860  {C3}  TC=0,0 
+R_RF2         N16364 N16384  12.7425 TC=0,0 
+V_V3         N11450 0 {TEMP}
+C_C9         N94123 N94536  {C3}  TC=0,0 
+R_R13         N95798 N95860  {R3} TC=0,0 
+R_RF8         N18741 N18767  420.2000m TC=0,0 
+C_CT1         J-A-TEMP-TANK N11404  2.5348m  TC=0,0 
+R_RF1         J-A-TEMP-FILTER N16364  4.2973 TC=0,0 
+R_RT2         N11404 N11408  11.8695 TC=0,0 
+R_R9         N94123 N94536  {R3} TC=0,0 
+C_CT4         N11412 N11450  1.0448  TC=0,0 
+R_RF5         J-C-TEMP-FILTER N18733  1.2410 TC=0,0 
+V_V5         N16436 0 {TEMP}
+C_CT3         N11408 N11412  23.1652m  TC=0,0 
+G_G5         0 J-A-TEMP-TANK VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+C_C4         JUNCTION-TEMPERATURE-3RC N92368  {C1}  TC=0,0 
+R_RF7         N18737 N18741  1.1241 TC=0,0 
+C_C14         N95860 N96370  {C4}  TC=0,0 
+C_C11         JUNCTION-TEMPERATURE-5RC N95722  {C1}  TC=0,0 
+R_RT4         N11412 N11450  60.0731 TC=0,0 
+C_CF8         0 N18741  15.0958  TC=0,0 
+C_C7         JUNCTION-TEMPERATURE-4RC N94061  {C1}  TC=0,0 
+R_R1         JUNCTION-TEMPERATURE-1RC N89014  {R1} TC=0,0 
+C_C2         JUNCTION-TEMPERATURE-2RC N91434  {C1}  TC=0,0 
+R_R4         JUNCTION-TEMPERATURE-3RC N92368  {R1} TC=0,0 
+R_R14         N95860 N96370  {R4} TC=0,0 
+R_R11         JUNCTION-TEMPERATURE-5RC N95722  {R1} TC=0,0 
+C_CF5         0 J-C-TEMP-FILTER  565.0698u  TC=0,0 
+C_CF1         0 J-A-TEMP-FILTER  1.9986m  TC=0,0 
+R_R7         JUNCTION-TEMPERATURE-4RC N94061  {R1} TC=0,0 
+R_R2         JUNCTION-TEMPERATURE-2RC N91434  {R1} TC=0,0 
+C_CT5         J-C-TEMP-TANK N11708  33.9309m  TC=0,0 
+C_C15         N96370 N95888  {C5}  TC=0,0 
+V_V9         N92392 0 {TEMP}
+V_V_Source         S SOURCE 0VDC
+V_V11         N95888 0 {TEMP}
+R_RF4         N16388 N16436  54.5024 TC=0,0 
+C_CT8         N11716 N11732  3.3975m  TC=0,0 
+V_V10         N94151 0 {TEMP}
+R_R15         N96370 N95888  {R5} TC=0,0 
+G_G4         0 J-C-TEMP-FILTER VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+V_V8         N91125 0 {TEMP}
+C_C6         N92773 N92392  {C3}  TC=0,0 
+C_CT7         N11712 N11716  17.5581  TC=0,0 
+G_G9         0 JUNCTION-TEMPERATURE-3RC VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+C_CF6         0 N18733  941.4124u  TC=0,0 
+R_R6         N92773 N92392  {R3} TC=0,0 
+G_G11         0 JUNCTION-TEMPERATURE-5RC VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+V_V7         N89014 0 {TEMP}
+C_CF3         0 N16384  193.3401m  TC=0,0 
+G_G10         0 JUNCTION-TEMPERATURE-4RC VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+G_G8         0 JUNCTION-TEMPERATURE-2RC VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+R_RF6         N18733 N18737  1.5147 TC=0,0 
+V_V_Drain         DRAIN D 0VDC
+G_G6         0 J-C-TEMP-TANK VALUE {
++  (V(Source)-V(Drain))*I(V_V_Source)+(V(Source)-V(Gate))*(-I(V_V_Gate)) }
+V_V6         N18767 0 {TEMP}
+.ENDS
+
+*Dec 12, 2005
+*Doc. ID: 78135, S-52519, Rev. B
+*File Name: Si7465DP_PS.txt and Si7465DP_PS.lib
+.SUBCKT Si7465DP 4 1 2
+M1  3 1 2 2 PMOS W=2036637u L=0.25u           
+M2  2 1 2 4 NMOS W=2036637u L=0.45u 
+R1  4 3     RTEMP 39E-3
+CGS 1 2     1000E-12
+DBD 4 2     DBD
+***************************************************************  
+.MODEL  PMOS       PMOS  ( LEVEL  = 3          TOX    = 5E-8
++ RS     = 6E-3            RD     = 0          NSUB   = 1.2E17
++ KP     = 3.5E-6          UO     = 400             
++ VMAX   = 0               XJ     = 5E-7       KAPPA  = 7E-2
++ ETA    = 1E-4            TPG    = -1  
++ IS     = 0               LD     = 0                        
++ CGSO   = 0               CGDO   = 0          CGBO   = 0 
++ NFS    = 0.8E12          DELTA  = 0.1)
+*************************************************************** 
+.MODEL  NMOS       NMOS  ( LEVEL  = 3          TOX    = 5E-8
++NSUB    = 2E16            TPG    = -1)   
+*************************************************************** 
+.MODEL DBD D (CJO=200E-12 VJ=0.38 M=0.27
++RS=0.1 FC=0.5 IS=1E-12 TT=6E-8 N=1 BV=60.5)
+*************************************************************** 
+.MODEL RTEMP RES (TC1=7E-3 TC2=5.5E-6)
+*************************************************************** 
+.ENDS     
