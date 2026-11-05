@@ -1,0 +1,24 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\Examen Parcial 1 2026\03 Problem 1 section C new lc pair non idea\simulation.net
+Start Time: Wed Nov  4 19:50:39 2026
+Options:meascplxfmt=polar
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 0.026 seconds.
+
+Files loaded:
+Z:\Examen Parcial 1 2026\03 Problem 1 section C new lc pair non idea\simulation.net
+Z:\Examen Parcial 1 2026\03 Problem 1 section C new lc pair non idea\GJM1555C1HR20WB01_DC0V_25degC.mod
+Z:\Examen Parcial 1 2026\03 Problem 1 section C new lc pair non idea\LQP03HQ2N3B02.mod
+
+zpeak: MAX(mag(V(out)/I(I1)))=(453.047953409,0°) FROM 1000000000 TO 10000000000
+fpeak: mag(V(out)/I(I1))=Zpeak AT 5649369748.12
+fl: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 5244895386.97
+fh: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 6077473180.57
+bw: fH-fL=(832577793.604,0°)
+qloaded: fpeak/BW=(6.78539566095,0°)

@@ -1,6 +1,7 @@
 LTspice 26.0.2 for Windows
-Circuit: C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\00 original design ideal\simulation.net
-Start Time: Tue Nov  3 23:48:42 2026
+Circuit: Z:\Examen Parcial 1 2026\00 Problem 1 section A original design ideal\simulation.net
+Start Time: Wed Nov  4 19:51:04 2026
+Options:meascplxfmt=polar
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -8,14 +9,14 @@ temp = 27
 method = trap
 .OP point found by inspection.
 .OP point found by inspection.
-Total elapsed time: 0.029 seconds.
+Total elapsed time: 0.028 seconds.
 
 Files loaded:
-C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\00 original design ideal\simulation.net
+Z:\Examen Parcial 1 2026\00 Problem 1 section A original design ideal\simulation.net
 
-zpeak: MAX(mag(V(out)/I(I1)))=(53.9793953099dB,0°) FROM 1000000000 TO 10000000000
+zpeak: MAX(mag(V(out)/I(I1)))=(499.999725025,0°) FROM 1000000000 TO 10000000000
 fpeak: mag(V(out)/I(I1))=Zpeak AT 5956621435.29
 fl: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 5589329597.18
 fh: mag(V(out)/I(I1))=Zpeak/sqrt(2)  AT 6347210355.4
-bw: fH-fL=(177.592017619dB,0°)
-qloaded: fpeak/BW=(17.9079823812dB,0°)
+bw: fH-fL=(757880758.226,0°)
+qloaded: fpeak/BW=(7.85957602253,0°)
