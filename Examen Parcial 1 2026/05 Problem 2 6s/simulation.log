@@ -1,0 +1,27 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\05 Problem 2 6s\simulation.net
+Start Time: Thu Nov  5 20:27:27 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Instance "mrev:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "mrev:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "muv:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "muv:M2": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.087 seconds.
+
+Files loaded:
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\05 Problem 2 6s\simulation.net
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\05 Problem 2 6s\si7465dp\si7465dp_PS.lib
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\05 Problem 2 6s\2N3904.LIB
+C:\Users\guion\OneDrive\Documentos\OnenotesPdfs\Analog design class\Examen Parcial 1 2026\05 Problem 2 6s\1SMA4746A.lib
+
+vz_305u: V(K) =17.9010276794 at 0.000305
