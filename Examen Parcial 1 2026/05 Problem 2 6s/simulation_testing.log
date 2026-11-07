@@ -1,0 +1,28 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\Examen Parcial 1 2026\05 Problem 2 6s\simulation_testing.net
+Start Time: Sat Nov  7 09:31:55 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Instance "mrev:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "mrev:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "muv:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "muv:M2": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.084 seconds.
+
+Files loaded:
+Z:\Examen Parcial 1 2026\05 Problem 2 6s\simulation_testing.net
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.bjt
+Z:\Examen Parcial 1 2026\05 Problem 2 6s\si7465dp\si7465dp_PS.lib
+Z:\Examen Parcial 1 2026\05 Problem 2 6s\2N3904.LIB
+Z:\Examen Parcial 1 2026\05 Problem 2 6s\1SMA4746A.lib
+
+Measurement "vcut" FAIL'ed
+Measurement "vreconnect" FAIL'ed
