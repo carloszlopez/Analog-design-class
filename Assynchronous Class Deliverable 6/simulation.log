@@ -1,0 +1,24 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\Assynchronous Class Deliverable 6\simulation.net
+Start Time: Wed Nov 11 22:15:00 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.036 seconds.
+
+Files loaded:
+Z:\Assynchronous Class Deliverable 6\simulation.net
+Z:\Assynchronous Class Deliverable 6\BSS138BK_30_01_2012.lib
+
+vds_on: V(d) =0.117355212543 at 5e-06
+id_on: abs(I(R12)) =0.0988264482514 at 5e-06
+rds_on: VDS_on/ID_on=1.18748791057
+p_on: 0.5*VDS_on*ID_on=0.00579889941972
+delta_tj: P_on*310=1.79765882011
+td_on=2.10657187299e-08 FROM 1.32906956951e-08 TO 3.4356414425e-08
+tr=4.4416282111e-08 FROM 3.4356414425e-08 TO 7.87726965361e-08
+td_off=6.2280064375e-08 FROM 1.00362465969e-05 TO 1.00985266612e-05
+tf=5.50374480888e-08 FROM 1.00985266612e-05 TO 1.01535641093e-05
