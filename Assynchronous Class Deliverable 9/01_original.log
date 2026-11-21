@@ -1,0 +1,20 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\Assynchronous Class Deliverable 9\01_original.net
+Start Time: Fri Nov 20 22:00:26 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.077 seconds.
+
+Files loaded:
+Z:\Assynchronous Class Deliverable 9\01_original.net
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\guion\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+

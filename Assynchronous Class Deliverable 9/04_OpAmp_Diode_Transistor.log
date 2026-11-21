@@ -1,0 +1,20 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\Assynchronous Class Deliverable 9\04_OpAmp_Diode_Transistor.net
+Start Time: Fri Nov 20 22:26:28 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.124 seconds.
+
+Files loaded:
+Z:\Assynchronous Class Deliverable 9\04_OpAmp_Diode_Transistor.net
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\guion\AppData\Local\LTspice\lib\cmp\standard.bjt
+Z:\Assynchronous Class Deliverable 9\OPAx134.lib
+Z:\Assynchronous Class Deliverable 9\TIP42C.LIB
+Z:\Assynchronous Class Deliverable 9\TIP41C.LIB
+Z:\Assynchronous Class Deliverable 9\1N914.LIB
+
